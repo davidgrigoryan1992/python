@@ -11,7 +11,7 @@ root.config(menu=menu)
 
 subMenu = Menu(menu)
 menu.add_cascade(label="File", menu=subMenu)
-subMenu.add_command(label="New Project 22...", command=doNothing)
+subMenu.add_command(label="New Project ...", command=doNothing)
 subMenu.add_command(label="New...", command=doNothing)
 subMenu.add_separator()
 subMenu.add_command(label="Open...", command=doNothing)
